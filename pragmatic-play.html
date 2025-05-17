@@ -988,6 +988,13 @@ button.close-sidebar {
     font-size: 18px;
     color: #555;
 }
+.kedip img {
+  animation: kedip 1s infinite;
+}
+@keyframes kedip {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}		
 /**** endof animation style ****/
         </style>
 
@@ -1038,6 +1045,9 @@ button.close-sidebar {
     <div class="row">
         <div class="col">
             <a href="index.html"><amp-img class="logo" src="assets/images/logo.webp" width="160" height="48"></amp-img></a>
+        </div>
+        <div class="kedip">
+            <amp-img src="assets/images/demo.webp" alt="Gambar Kedip" width="120px" height="35px" style="margin: 0px 0px 0px -10px"></amp-img>
         </div>
         <div class=menu-mobile><button on="tap:sidebar.toggle">☰</button></div>
     </div>
